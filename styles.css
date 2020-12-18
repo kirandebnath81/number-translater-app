@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body{
+    font-family: 'Patrick Hand', cursive;
+    background-color: #111827;
+    background: url(images/small.jpg);
+    height: 500px;
+}
+
+
+.header{
+    background-color:#111827;
+    padding: 30px;
+    max-width: 600px;
+    margin: 0px auto;
+    border-radius: 1.5rem;
+    color:white;
+    box-shadow: 2px 5px 15px rgb(105 97 97);;
+}
+.footer{
+    background-color:#111827;
+    padding: 30px;
+    max-width: 600px;
+    margin: 0px auto;
+    border-radius: 1.5rem;
+    color:white;
+    box-shadow: 2px 5px 15px rgb(105 97 97);;
+}
+
+.headerText{
+    font-size: 5rem;
+    display: inline-block;
+    font-weight: 200px;
+   margin-bottom: 1rem;
+   max-width: 220px;
+    
+}
+
+.minion{
+    max-width: 200px;
+    border-radius: 6rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.minions{
+    max-width: 300px;
+    border-radius: 2rem;
+    margin: 2rem auto 0.2rem;
+    display: block;
+}
+
+.footerText{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.textarea{
+    display: block;
+    margin: 50px auto;
+    border-radius: 1rem;
+    padding: 15px;
+    
+     
+
+}
+.output{
+    display: block;
+    margin: 50px auto;
+    border-radius: 1rem;
+    border: 2px solid;
+    height: 150px;
+    max-width: 350px;
+    background-color:white ;
+    padding: 15px;
+    
+}
+
+
+.btn-primary{
+    padding: 0.5rem 2rem;
+    border-radius: 1.5rem;
+    display: block;
+    margin: 0px auto;
+    background-color: #FBBF24;
+    border: 2px solid #111827;
+    font-size: 1.5rem;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    color: #111827;
+    
+    
+}
+
+.btn-primary:hover {
+    background-color: rgb(77, 22, 207);
+    color: honeydew;
+}
