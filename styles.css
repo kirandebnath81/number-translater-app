@@ -19,7 +19,7 @@ body{
 }
 .footer{
     background-color:#111827;
-    padding: 30px;
+    padding: 10px;
     max-width: 600px;
     margin: 0px auto;
     border-radius: 1.5rem;
@@ -32,7 +32,7 @@ body{
     display: inline-block;
     font-weight: 200px;
    margin-bottom: 1rem;
-   max-width: 220px;
+   max-width: 520px;
     
 }
 

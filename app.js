@@ -5,6 +5,10 @@ let outputText=document.querySelector(".output")
 btnPrimary.addEventListener("click",eventHandler)
 
 
+function errorHandler(error) {
+    console.log("error occured", error);
+    alert("something wrong with server! try again after some time")
+}
 // if(inputText.value===""){
 // alert('Enter some text')
 // else{
@@ -17,6 +21,7 @@ btnPrimary.addEventListener("click",eventHandler)
         .then(json => {
             outputText.innerText=json.contents.translated;
         })
+        .catch(errorHandler)
     }
     
     
