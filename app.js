@@ -21,7 +21,7 @@ btnPrimary.addEventListener("click",eventHandler)
     
     
     
-     var url="https://api.funtranslations.com/translate/minion.json"
+     var url="https://api.funtranslations.com/translate/numbers.json"
     
     function urlConstructer(text){
         return url+"?text="+text
